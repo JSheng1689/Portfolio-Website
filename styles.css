@@ -1,0 +1,87 @@
+header
+{
+ height: 100vh; /*Tells to take up 100% of visual height */
+ background-image: url(assets/background.png);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center ;
+ background-size: cover; 
+ margin-bottom: 0px;
+}
+#contact-me{
+    height: 100vh; /*Tells to take up 100% of visual height */
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    align-items: center;
+    background-size: contain; 
+    margin-bottom: 0px;
+}
+#projects{
+    margin-bottom: 100px;
+}
+
+*
+{
+ margin: 0px;
+ padding: 0px;
+}
+
+#down
+{
+ position: absolute;
+ top:85vh;
+ font-size: 2.5em;
+}
+#down:hover
+{
+ cursor: pointer;
+ background-color: #eee;
+ opacity: 0.8;
+}
+
+p{
+     
+    font-size: 16px;
+}
+a, u {
+    text-decoration: none !important;
+    color: inherit; 
+    
+}
+img{
+    width:150px;
+    height:150px;
+ 
+ /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+     object-fit:scale-down;
+ 
+ }
+
+h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.navbar-custom{
+    transition:500ms ease;
+    background:transparent;
+  }
+  .navbar-custom.scrolled{
+    background:white;
+  }
+
+  .ml16 {
+    color: #402d2d;
+    padding: 40px 0;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    overflow: hidden;
+  }
+  
+  .ml16 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }

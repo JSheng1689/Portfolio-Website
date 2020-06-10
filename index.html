@@ -1,0 +1,325 @@
+<!-- Water Design? Have landing page like a lake and it ripples-->
+<!-- Space Design? Astronaut follow mouse or turn around planet-->
+<!-- Indie kind of background-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">  
+  <title>Jonathan Sheng</title>
+  <link rel="icon" href="assets/tab favicon.png">
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css"> 
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id='navigation' class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <div class="container" >
+      <a class="navbar-brand" href="#" id='nav-home'>Jonathan Sheng</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id = 'nav-about-me'>About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id = 'nav-experience'>Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id='nav-projects'>Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id='nav-contact-me'>Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <h1 class="ml16" id='intro' style='font-size: 40px;'>Hi, I'm Jonathan Sheng</h1>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <a href="assets/Final Resume.pdf" target = '_blank' class="btn btn-outline-dark">Click for Resume</a>
+    <span id='down'>&#8595;</span>
+  </header>
+  <div id ='back'>
+  <section id='about-me' style= ' padding-top:0px;'>
+    <div class='row'>
+      <div class='col-lg-4'></div>
+    </div>
+    <div class="container" style='height: 100vh;'>
+      <h1 style="text-align:center">About Me</h1>
+      <hr style = "border: 1px solid lightblue;">
+      <div class='row'>
+        <div class="col-lg-1"></div> 
+        <div class="col-lg-6">
+          <p>
+            I'm a rising sophomore at Rice University, majoring in Computer Science with a minor in Data Science.
+            Heavily involved in Rice culture, I'm a treasurer and mentor in Rice's Data Science Club as well as my residential
+            college's webmaster. In my free time, I love biking, fencing, and grabbing Chipotle with friends.
+          </p>      
+          <p>
+            Currently, I'm heavily focused on building practical projects that push my boundaries as a programmer
+            and provide ease of use in everyday life. 
+            I am passionate about using computer science to make a positive impact on society. 
+            I strongly believe teamwork and communication are important for overall success. 
+          </p>
+        </div> 
+        <div class ='col-lg-4'>
+          <img src='assets/Picture.png' style = 'width: 75%; height: 75%;''>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id = 'experience'>
+    <div class='container' >
+      <!-- Grid lay out experience-->
+      <h1 style="text-align:center">Experience </h1>
+      <hr style = "border: 1px solid lightblue;">
+      <div class='row'>
+        <div class="col-lg-1"></div> 
+        <div class="col-lg-2">
+          <img src = "assets/openstax logo.png" >
+        </div>
+        <div class="col-lg-8"><h2>Openstax</h2>
+          <h5><strong>Content Management Intern</strong></h5>
+          <p>Location: Houston, Texas &emsp; Time: November 2019 - Present</p>
+          <p>
+            Working at Openstax, I gained valuable communication, teamwork, and problem solving skills.
+            I was fortunate to provide content for our online Covid-19 response coursework,
+            improve and update Tutor (easy to use online courseware), and maintain our textbooks.
+            As the company used Agile methodology, I also learned time management skills, constantly 
+            pushing deliverables and adjusting based on customer responses.
+        </div> 
+      </div>
+
+      <div class='row'>
+        <div class="col-lg-1"></div> 
+        <div class="col-lg-2">
+          <img src = 'assets/Rice Logo.png'>
+        </div>
+        <div class="col-lg-8">
+          <h2>Rice University</h2>
+          <h5><strong>Research Assistant</strong></h5>
+          <p>Location: Houston, Texas &emsp; Time: May 2020 - Present</p>
+          <p>
+            With the guidance of Professor Luay Nakleh, I am working alongside a team of undergraduates
+            on assessing the performance of current CNA detection methods (CNA are a type of acquired mutation
+            linked to cancer). 
+          <a href = 'assets/sc_benchmark_main.pdf' target = '_blank'>Link to Research Paper</a> </p>
+        </div> 
+      </div>
+      <div class='row'>
+        <div class="col-lg-1"></div> 
+        <div class="col-lg-2"><img src = "assets/capital one image.png"> </div>
+        <div class="col-lg-8"><h2>Capital One</h2> 
+        <h5><strong>Software Engineering Summit</strong></h5>
+        <p>Location: McLean, Virginia &emsp; Time: May 2020</p>
+        <p>I was accepted amongst the top 10% of applicants. Summitteers engaged in workshops, such as 
+          Android App Development, Machine Learning, AWS, Arduino, and more. In addition, 
+          we met and coded amongst Capital One's experienced software engineers as well as fellow
+          participants.
+       </p>
+      </div>
+      </div>
+    </div>
+</section>
+<section id = 'projects'>
+  <h1 style=  "text-align:center">Projects I've Worked On</h1>
+  <hr style = "border: 1px solid lightblue;">
+  <br>
+  <div class='container'>
+    <div class='row'>
+      <div class="col-lg-1"></div> 
+      <div class="col-lg-2">
+        <img src = "assets/blackjack thumbnail.png"> 
+      </div>
+      <div class="col-lg-8"><h2>Blackjack Simulator</h2> 
+        <p>
+          Implemented a game of Blackjack using HTML, CSS, and Javascript.
+        </p>
+     <p>
+      <a href="https://github.com/JSheng1689/Black-Jack" target = '_blank' class="fa fa-github" style='font-size: 17px;'> Github Repository</a>
+     </p>
+    </div>
+  </div>
+    <div class='row'>
+      <div class="col-lg-1"></div> 
+      <div class="col-lg-2">
+        <img src = "assets/hanszen screenshot.PNG"> 
+      </div>
+      <div class="col-lg-8"><h2>Hanszen Website</h2> 
+        <p>
+          I maintain Harry Clay Hanszen College of Rice University's website. 
+          The website is designed with Bootstrap 4 and is built with Jekyll.
+        </p>
+     <p>
+      <a href="https://github.com/JSheng1689/Black-Jack" target = '_blank' class="fa fa-github" style='font-size: 17px;'> Github Repository</a>
+     </p>
+    </div>
+    </div> 
+    <div class='row'>
+      <div class="col-lg-1"></div> 
+      <div class="col-lg-2">
+        <img src = "assets/loadingbar.jpg"> 
+      </div>
+      <div class="col-lg-8"><h2>News Aggregator</h2> 
+        <p>
+          Instead of sifting through multiple sites and the many tabs,
+          I decided to combine all of the headlines onto one site.
+        </p>
+     <p>
+      <a class="fa fa-github" style='font-size: 17px;'> Github Repository</a>
+     </p>
+    </div>
+    </div>
+    <div class='row'>
+      <div class="col-lg-1"></div> 
+      <div class="col-lg-2">
+        <img src = "assets/loadingbar.jpg"> 
+      </div>
+      <div class="col-lg-8"><h2>Tetris AI Bot</h2> 
+        <p>
+          Bot that uses Q Learning to determine ideal moves in Tetris
+        </p>
+     <p>
+      <a class="fa fa-github" style='font-size: 17px;'> Github Repository</a>
+     </p>
+    </div>
+    </div>
+    <div class='row'>
+      <div class="col-lg-1"></div> 
+      <div class="col-lg-2">
+        <img src = "assets/loadingbar.jpg"> 
+      </div>
+      <div class="col-lg-8"><h2>Tic Tac Toe AI</h2> 
+        <p>
+          Implemented Minimax algorithm, as well as Alpha Beta Pruning to optimize the AI's moves.
+        </p>
+     <p>
+      <a class="fa fa-github" style='font-size: 17px;'> Github Repository</a>
+     </p>
+    </div>
+    </div>
+  </div>
+</section>
+</div>
+<section id= 'contact-me'>
+  <div class='container' >
+    <h1></h1>
+    <h1 style="text-align:center; padding-bottom: 0px;" class="ml16" >Contact Me</h1>
+    <br>
+    <div class='row'>
+      <div class='col-lg-4'></div>
+      <div class='col-lg-4'>
+        <p style='text-align: center; font-size: 20px; font-family: Questrial, sans-serif;'>
+          Feel free to connect and reach out!
+        </p>
+      </div>
+
+    </div>
+    <div class='row'>
+      <div class='col-lg-4'></div>
+      <div class='col-lg-4'>
+    
+        <br><br>
+      </div>
+    </div>
+    <div class='row'>
+      <div class = 'col-lg-4'></div>
+      <div class = 'col-lg-1'>
+        <p style='text-align: center;'>
+          <a href="mailto: js165@rice.edu" class="fa fa-envelope" style='font-size: 40px;'></a>
+        </p>
+      </div>
+      <div class = 'col-lg-2'>  
+        <p style='text-align: center;'>
+          <a href="https://www.linkedin.com/in/jonathan-sheng/" target = '_blank' class="fa fa-linkedin" style='font-size: 40px;'></a>
+        </p>  
+        </div>
+      <div class = 'col-lg-1'>
+        <p style='text-align: center;'>
+          <a href="https://github.com/JSheng1689" target = '_blank' class="fa fa-github" style='font-size: 40px;'></a>
+        </p>
+      </div>
+  
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<!--JQuery to scroll to div-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+  $("#nav-home").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+});
+	$(document).ready( function () {
+	$('#nav-about-me').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#about-me").offset().top
+    }, 1000);
+	});
+  $('#nav-experience').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#experience").offset().top
+    }, 1000);
+	});
+  $('#nav-projects').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 1000);
+	});
+  $('#nav-contact-me').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#contact-me").offset().top
+    }, 1000);
+	});
+  $('#down').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#about-me").offset().top
+    }, 1000);
+	});
+  $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+$(window).scroll(function(){
+  var $win = $(window);
+  var winH = $win.height();
+	$('#navigation').toggleClass('scrolled', $(this).scrollTop() > winH);
+});
+
+//Test Code
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml16');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline()
+
+.add({
+    targets: '.ml16 .letter',
+    translateY: [-100,0],
+    easing: "easeOutExpo",
+    delay: (el, i) => 30 * i
+  })
+
+});
+
+</script>
+</body>
+</html>
