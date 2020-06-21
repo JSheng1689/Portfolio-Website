@@ -40,7 +40,9 @@ header
  background-color: #eee;
  opacity: 0.8;
 }
-
+section{
+  margin-bottom: 10%;
+}
 p{
      
     font-size: 16px;
